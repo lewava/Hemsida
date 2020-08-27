@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka One");
+@import url("https://fonts.googleapis.com/css?family=Bowlby One");
+@import url("https://fonts.googleapis.com/css?family=Merienda One");
+
+*  {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    background-image: url("../images/black-background.jpg");
+    background-size: 120%;
+    
+}
+
+.logo {
+    text-align: center;
+    margin-top: 41px;
+    margin-bottom: 15px;
+}
+
+/***************************************************************************/
+/*                                   Menu                                  */
+/***************************************************************************/
+
+.menu {
+    font-family: 'Fredoka One';
+    width: 960px;
+    height: 50px;
+    background: radial-gradient(circle, #c0c0c0 44%, #383838 92%, #2c2c2c 100%);
+    border: 1px solid #2c2c2c;
+    border-radius: 2%;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.menu-box-one {
+    margin: 0;
+    text-align: center;
+}
+
+.menu-box-two {
+    margin: 0;
+    text-align: center;
+}
+
+.menu-box-three {
+    margin: 0;
+    text-align: center;
+}
+
+.menu-box-four {
+    margin: 0;
+    text-align: center;
+}
+
+.menu-box-five {
+    margin: 0;
+    text-align: center;
+}
+
+.menu a {
+    display: inline-block;
+    width:100%;
+    line-height:50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu a:hover {
+    background: radial-gradient(circle, rgba(26,206,207,1) 45%, rgba(28,141,149,1) 95%, rgba(44,46,46,1) 100%);
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+  /***************************************************************************/
+  /*                                   footer                                */
+  /***************************************************************************/
+
+  .footer {
+    width: 960px;
+    height: 50px;
+    background: radial-gradient(circle, #c0c0c0 44%, #383838 92%, #2c2c2c 100%);
+    border: 1px solid #383838;
+    border-radius: 2%;
+}
+
+.footer a {
+    display: inline-block;
+    width:100%;
+    line-height:50px;
+    font-family: 'Fredoka One';
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    padding: 0px 2px;
+
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-box-one {
+    margin: 0;
+    margin-left: 30px;
+}
+
+.footer-box-two {
+    margin: 0;
+}
+
+.footer-box-three {
+    margin: 0;
+}
+
+.footer-box-four {
+    margin: 0;
+}
+
+.footer-box-five {
+    margin: 0;
+}
+
+.footer-box-six {
+    margin: 0;
+    margin-left: 200px;
+}
+
+/***************************************************************************/
+/*                                   Tjänster/packages                     */
+/***************************************************************************/
+
+.info {
+    width: 940px;
+    height: 240px;
+    border-radius: 2%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(357deg, rgba(28,141,149,1) 34%, rgba(26,206,207,1) 54%, rgba(28,141,149,1) 72%);
+}
+
+.info-container{
+    display: grid;
+    grid-template-columns: 1.45fr 2.5fr 0.75fr;
+}
+
+.info h2 {
+    font-family: 'Bowlby One';
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 36px;
+    padding: 10px 0px;
+}
+
+.info h4 {
+    font-family: 'Bowlby One';
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 10px, 0px;
+}
+
+.info p {
+    font-family: 'Merienda One';
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+.info-box-one {
+    margin: 0px;
+    padding-left: 25px;
+}
+
+.info-box-two {
+    margin: 0px;
+}
+
+.info-box-three {
+    margin: 0px;
+}
+
+.website-container {
+    width: 1040px;
+    height: 240px;
+    border-radius: 2%;
+    background: linear-gradient(357deg, rgba(28,141,149,1) 34%, rgba(26,206,207,1) 54%, rgba(28,141,149,1) 72%);
+    border: 1px solid #2c2c2c;
+    margin: auto;
+  }
+
+  .container {
+    width: 1040px;
+    height: 240px;
+    border-radius: 2%;
+    background: linear-gradient(357deg, rgba(28,141,149,1) 34%, rgba(26,206,207,1) 54%, rgba(28,141,149,1) 72%);
+    border: 1px solid #2c2c2c;
+    margin: auto;
+  }
+
+  .carousel {
+      position: relative;
+      overflow: hidden;
+      height: 240px;
+  }
+
+  .slider {
+      height: 100%;
+      display: flex;
+      transition: all 0.5s;
+      width: 300%;
+  }
+
+  .slider section {
+      flex-basis: 100%;
+      display: inline-block;
+      padding: 0;
+  }
+
+  .slider h2 {
+    width: 100%;
+    font-family: 'Bowlby One';
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+    text-align: top; 
+  }
+
+  .slider p {
+    font-family: 'Merienda One';
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+  .controls .arrow{
+    cursor: pointer;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px; 
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-20%);
+  }
+
+  .arrow.left {
+      left: 0px;
+  }
+
+  .arrow.right {
+      right: 0px;
+  }
+
+  .arrow.left:hover, .arrow.right:hover {
+    background-color: #000000cc;
+  }
+
+/***************************************************************************/
+/*                                   Tjänster/Offert                       */
+/***************************************************************************/
+
+.middle-box {
+    font-family: 'Fredoka One';
+    width: 960px;
+    height: 120px;
+    background: radial-gradient(circle, #c0c0c0 44%, #383838 92%, #2c2c2c 100%);
+    border: 1px solid #2c2c2c;
+    border-radius: 2%;
+    letter-spacing: 1px;
+}
+
+
+.middle-box input {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 100px;
+    height: 18px;
+    padding: 5px 10px;
+    margin: 15px;
+    margin-left: 0px;
+    border: 2px solid #c0c0c0;
+    border-radius: 15px;
+}
+
+input:focus {
+    outline-style: none;
+  }
+
+.name-label {
+    padding-left: 30px;
+}
+
+.middle-box select {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 140px;
+    height: 31px;
+    border:  1px solid #aaa;
+    border-radius: 1em;
+    color: #444;
+    font-weight: 400;
+}
+
+select:focus {
+    outline-style: none;
+  }
+
+.middle-box .msg {
+    width: 290px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid #c0c0c0;
+    resize: none;
+    padding: 10px;
+    margin-left: 85px;
+}
+
+textarea:focus {
+    outline-style: none;
+  }
+
+.middle-box .button {
+    -moz-box-shadow: inset -3px -3px 10px c0c0c0;
+    -webkit-box-shadow: inset -3px -3px 10px #c0c0c0;
+    box-shadow: inset -3px -3px 10px c0c0c0;
+    background-color: #ffffff;
+    color: #000;
+    font-family: 'Fredoka One';
+    border-radius: 15px;
+    width: 130px;
+    height: 33px;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    -webkit-mask-image: linear-gradient(-75deg, #c4c4c499 30%, #808080 50%, #c4c4c499 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 1.25s infinite;
+    
+}
+
+@-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
+/***************************************************************************/
+/*                                   Kontakt                               */
+/***************************************************************************/
+
+#contact-box-one {
+    height: 70px;
+    border-radius: 3%;
+}
+
+.map {
+    width: 960px;
+    height: 350px;
+    border: none;
+    border: 1px solid #2c2c2c;
+    border-top: none;
+    border-radius: 2%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+.contact-form {
+    font-family: 'Fredoka One';
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.contact-form input{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 175px;
+    height: 24px;
+    padding: 5px 10px;
+    border: 2px solid #c0c0c0;
+    border-radius: 30px;
+    margin-bottom: 8px;
+}
+
+.contact-form textarea{
+    display: block;
+    width: 385px;
+    height: 70px;
+    border-radius: 30px;
+    border: 2px solid #c0c0c0;
+    resize: none;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.contact-form .contact-button {
+    display: block;
+    -moz-box-shadow: inset -3px -3px 10px c0c0c0;
+    -webkit-box-shadow: inset -3px -3px 10px #c0c0c0;
+    box-shadow: inset -3px -3px 10px c0c0c0;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 25px;
+    width: 400px;
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.contact-button:hover {
+    cursor: pointer;
+    -webkit-mask-image: linear-gradient(-75deg, #c4c4c499 30%, #808080 50%, #c4c4c499 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 1.25s infinite;
+    
+}
+  
